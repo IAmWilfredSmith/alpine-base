@@ -1,15 +1,15 @@
 ####################################################################################################################################
-#																																											  #
-# Dockerfile - Docker container definition for wilfredsmith/alpine-base															    [Dockerfile] #
-#																																											  #
-# Copyright (c) 2014-2019, Wilfred A. Smith. All rights reserved.																					     #
-#																																											  #
-# Arguments:																																							  #
-#	  ADMIN_GROUP - group name for the OS administrotor (default is administrators)												      		  #
-#	  ADMIN_PASSWORD - initial password for the OS administrator (default is insecure). Change this immediately!   					  #
-#	  ADMIN_USERNAME - user name of the OS administrator (default is admin)																		     #
-#    ALPINE_VERSION - specify the version of Alpine to use (default is latest).   																  #
-#																																											  #
+#																															                                      #
+# Dockerfile - Docker container definition for wilfredsmith/alpine-base												             [Dockerfile] #
+#																													        	                                   #
+# Copyright (c) 2014-2019, Wilfred A. Smith. All rights reserved.																                    #
+#																																                                   #
+# Arguments:																													                                #
+#	  ADMIN_GROUP - group name for the OS administrotor (default is administrators)												              #
+#	  ADMIN_PASSWORD - initial password for the OS administrator (default is insecure). Change this immediately!   				     #
+#	  ADMIN_USERNAME - user name of the OS administrator (default is admin)														                 #
+#    ALPINE_VERSION - specify the version of Alpine to use (default is latest).   												              #
+#																																                                   #
 ####################################################################################################################################
 
 ARG ALPINE_VERSION=latest
